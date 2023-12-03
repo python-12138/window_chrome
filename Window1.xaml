@@ -1,0 +1,30 @@
+﻿<Window x:Class="wpf_window_chrome.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpf_window_chrome"
+        xmlns:shell="clr-namespace:System.Windows.Shell;assembly=PresentationFramework"
+        mc:Ignorable="d"
+        Title="Window111" Height="450" Width="800">
+    <WindowChrome.WindowChrome>
+        <WindowChrome NonClientFrameEdges="Bottom,Left,Right"></WindowChrome>
+      
+    </WindowChrome.WindowChrome>
+
+    <Window.Template>
+        <ControlTemplate TargetType="Window">
+            <Border >
+
+                <ContentPresenter></ContentPresenter>
+            </Border>
+        </ControlTemplate>
+    </Window.Template>
+
+
+    <Grid >
+
+        <TextBlock Text="123" Background="Red"  FontSize="50"   HorizontalAlignment="Left" VerticalAlignment="Center"></TextBlock>
+       
+    </Grid>
+</Window>
