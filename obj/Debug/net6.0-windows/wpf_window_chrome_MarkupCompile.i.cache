@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-E:\Visualcode\wpf\wpf_window_chrome\obj\Debug\net6.0-windows\
+E:\GitDemo\window_chrome\obj\Debug\net6.0-windows\
 wpf_window_chrome
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-E:\Visualcode\wpf\wpf_window_chrome\App.xaml
+E:\GitDemo\window_chrome\App.xaml
 21940794329
 
 71178462474
-194-1977528901
+194370617981
 MainWindow.xaml;Window1.xaml;
 
-True
+False
 

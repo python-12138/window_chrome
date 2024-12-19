@@ -8,23 +8,23 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\py12138\\.nuget\\packages\\": {},
-    "D:\\ProgramFile\\VisualStdio\\sdk\\NuGetPackages": {}
+    "C:\\Users\\Py12138\\.nuget\\packages\\": {},
+    "D:\\Ide\\VisualStudio2022\\SDK\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Visualcode\\wpf\\wpf_window_chrome\\wpf_window_chrome.csproj",
+      "projectUniqueName": "E:\\GitDemo\\window_chrome\\wpf_window_chrome.csproj",
       "projectName": "wpf_window_chrome",
-      "projectPath": "E:\\Visualcode\\wpf\\wpf_window_chrome\\wpf_window_chrome.csproj",
-      "packagesPath": "C:\\Users\\py12138\\.nuget\\packages\\",
-      "outputPath": "E:\\Visualcode\\wpf\\wpf_window_chrome\\obj\\",
+      "projectPath": "E:\\GitDemo\\window_chrome\\wpf_window_chrome.csproj",
+      "packagesPath": "C:\\Users\\Py12138\\.nuget\\packages\\",
+      "outputPath": "E:\\GitDemo\\window_chrome\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\ProgramFile\\VisualStdio\\sdk\\NuGetPackages"
+        "D:\\Ide\\VisualStudio2022\\SDK\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\py12138\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Py12138\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -46,6 +46,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -70,7 +75,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

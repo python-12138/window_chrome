@@ -6,7 +6,13 @@
         xmlns:local="clr-namespace:wpf_window_chrome"
         WindowStartupLocation="CenterScreen"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="1024"  Background="Orange"  WindowStyle="None" AllowsTransparency="True" >
+        Title="MainWindow" 
+        Height="450" 
+        Width="1024"
+        Background="Orange"  
+        WindowStyle="None"
+        AllowsTransparency="True" 
+        >
 
 
     
@@ -15,9 +21,6 @@
         
         <Storyboard x:Key="OnChecked">
 
-
-            
-            
             <DoubleAnimation Storyboard.TargetProperty="(FrameworkElement.Width)" Storyboard.TargetName="LeftGrid"
                          From="200" To="70" Duration="0:0:0.2" />
             <ThicknessAnimation Storyboard.TargetProperty="Margin" Storyboard.TargetName="RightGrid"
@@ -127,8 +130,6 @@
                                 <Setter Property="Text" TargetName="ico" Value="&lt;-"></Setter>
                             </Trigger>
                             
-                   
-
                         </ControlTemplate.Triggers>
                     </ControlTemplate>
                 </Setter.Value>
