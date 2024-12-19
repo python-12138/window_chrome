@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("wpf_window_chrome")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+815c8af36b7a7d8a706edc814fa42c211d909764")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2866c4ec5330836983ff27de54815da4085fb510")]
 [assembly: System.Reflection.AssemblyProductAttribute("wpf_window_chrome")]
 [assembly: System.Reflection.AssemblyTitleAttribute("wpf_window_chrome")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
