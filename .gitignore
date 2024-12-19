@@ -3,4 +3,15 @@
 debug/
 release/
 
-obj/
+# 忽略obj目录下的所有文件
+obj/**/*.gitignore
+obj/**/*.txt
+obj/**/*.log
+obj/**/*.tmp
+obj/**/*.bak
+obj/**/*.swp
+obj/**/*.swx
+obj/**/*.bak
+obj/**/*.~
+# 但保留obj目录下的文件夹和文件夹下的内容
+!obj/**
